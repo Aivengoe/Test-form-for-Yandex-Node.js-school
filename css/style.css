@@ -1,0 +1,57 @@
+body {
+	font-family: Arial,sans-serif;
+}
+
+.myForm{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin:auto;
+	width: 400px;
+    height: 450px;
+	padding: 20px;
+    box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 
+    			 1px 0 2px 0 rgba(0,0,0,0.12),
+    			 0 1px 1px 0 rgba(0,0,0,0.24);		 
+}
+.block {
+	margin-bottom: 20px;
+	height: 90px;
+}
+.block_label {
+	font-size: 19px;
+}
+
+.block_input {
+	width: 370px;
+	height: 38px;
+	margin-top: 5px;
+	padding-left: 11px;
+    padding-right: 11px;
+    font-size: 18px;
+}
+
+.block_comment {
+	font-size: 13px;
+	color: #666;
+} 
+
+.myForm__button  {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 135px;
+	height: 50px;
+	font-size: 18px;
+	line-height: 50px;
+
+}
+.resultContainer {
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.error {
+	border: 1px solid red;
+}
